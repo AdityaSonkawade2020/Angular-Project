@@ -1,0 +1,28 @@
+{
+  "registers": [
+    {
+      "custmoer_name": "",
+      "custmoer_password": "",
+      "custmoer_email": "",
+      "custmoer_mobile": "",
+      "custmoer_address": "",
+      "id": 1
+    },
+    {
+      "custmoer_name": "",
+      "custmoer_password": "",
+      "custmoer_email": "",
+      "custmoer_mobile": "",
+      "custmoer_address": "",
+      "id": 2
+    },
+    {
+      "custmoer_name": "",
+      "custmoer_password": "",
+      "custmoer_email": "",
+      "custmoer_mobile": "",
+      "custmoer_address": "",
+      "id": 3
+    }
+  ]
+}

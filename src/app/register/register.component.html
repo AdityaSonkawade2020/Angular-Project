@@ -1,0 +1,71 @@
+<div class="jumbotron">
+<div class="table table-bordered bg-dark text-info">
+    <div>
+        <form [formGroup]="form" (ngSubmit)="registerok()">
+            <div>
+                <h1 class="alert alert-info" style="text-align: center;">Login Form</h1>
+            </div>
+            <div>
+                <label>Customer Name</label>
+                <input type="text" placeholder="Enter your Name"
+                fromControlName= "custmoer_name"/>
+            </div>
+
+            <div>
+                <label>Customer Password</label>
+                <input type="password" placeholder="Enter your Name"
+                fromControlName= "custmoer_password"/>
+            </div>
+
+            <div>
+                <label>Customer Email</label>
+                <input type="text" placeholder="Enter Currect Email"
+                fromControlName= "custmoer_email"/>
+            </div>
+
+            <div>
+                <label>Customer Mobile Number</label>
+                <input type="text" placeholder="Enter your Mobile Number"
+                fromControlName= "custmoer_mobile"/>
+            </div>
+
+            <div>
+                <label>Customer Address</label>
+                <input type="text" placeholder="Enter your Address"
+                fromControlName= "custmoer_address"/>
+            </div>
+
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="Submit" class="btn btn-success">Register</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="Reset" class="btn btn-danger">Clear Form</button>
+                
+            </div>
+        </form>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <!----  
+<table class="table table-borered table-striped table-hover bg-info">
+    <thead>
+        <tr>
+        <th>Custmoer Name </th>
+        <th>Custmoer Password </th>
+        <th>Custmoer Email </th>
+        <th>Custmoer Mobile no </th>
+        <th>Custmoer Address </th>
+        </tr>
+    </thead>
+    <tbody> 
+        <tr *ngFor="let s of register">
+            <td>{{s.register_name}}</td>
+            <td>{{s.register_password}}</td>
+            <td>{{s.register_email}}</td>
+            <td>{{s.register_mobile}}</td>
+            <td>{{s.register_address}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+</div>
+</div>-->
